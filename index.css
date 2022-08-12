@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+    background-color: #301728FF;
+    /* height: 100vh; */
+    
+}
+
+.title {
+    color: #9F6B99FF;
+    text-align: center;
+    font-size: 40px;
+}
+
+.display {
+    color: #93385FFF;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 900px;
+}
+
+.tile {
+    border: 10px solid #4F3466FF;
+    min-width: 100px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    cursor: pointer;
+    color: #F8F8FF;
+    margin-bottom: -1%;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+.X {
+    color: #F8F8FF;
+}
+
+
+
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#reset {
+    background-color: #93385FFF;
+    color: #9F6B99FF;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
